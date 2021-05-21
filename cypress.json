@@ -7,11 +7,11 @@
         "user": {
             "email": "testeabcd@teste1.com",
             "senha": "abcd1234"
-        },
-        "video": false,
-        "reporter": "cypress-multi-reporters",
-        "reporterOptions": {
-            "configFile": "reporter-config.json"
         }
+    },
+    "video": false,
+    "reporter": "cypress-multi-reporters",
+    "reporterOptions": {
+        "configFile": "reporter-config.json"
     }
 }

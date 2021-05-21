@@ -1,4 +1,4 @@
-// <reference types="cypress"/>
+/// <reference types="cypress"/>
 
 describe('Autenticação', () => {
     it('Efetuar login com usuário e senha válidos', () => {

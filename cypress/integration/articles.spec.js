@@ -5,7 +5,7 @@
 // check out the link below and learn how to write your first test:
 // https://on.cypress.io/writing-first-test
 /* ==== Test Created with Cypress Studio ==== */
-
+/// <reference types="cypress"/>
 
 describe('Artigos', () => {
 
@@ -21,7 +21,7 @@ describe('Artigos', () => {
     cy.get('input[placeholder="Enter tags"]').type('cypress');
     cy.get('button.btn-primary').contains('Publish article').click();
 
-    //validar a inclusão do artigo
+    //validar a inclusÃ£o do artigo
     cy.get('h1').should('contain.text', 'Novo artigo');
 
     /* ==== End Cypress Studio ==== */

@@ -4,23 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress run"
+    "test": "npx cypress run",
+    "report:merge": "mochawesome-merge > index.json",
+    "report:generate": "marge index.json",
+    "report:clean": "rimraf mochawesome-report index.json"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "devDependencies": {
     "cypress": "^7.3.0",
-    "cypress-mochawesome-reporter": "^2.0.1",
     "cypress-multi-reporters": "^1.5.0",
     "mochawesome": "^6.2.2",
     "mochawesome-merge": "^4.2.0",
-    "mochawesome-report-generator": "^5.2.0"
-  },
-  "dependencies": {
-    "mocha-multi-reporters-demo": "github:stanleyhlng/mocha-multi-reporters-demo",
-    "yargs": "^17.0.1",
-    "yargs-parser": "^20.2.7",
-    "yargs-unparser": "^1.6.4"
+    "mochawesome-report-generator": "^5.2.0",
+    "rimraf": "^3.0.2"
   }
 }
