@@ -15,7 +15,7 @@ on:
     
   #cron schedule - definir horários, dia e hora para executar
   
-    workflow_dispatch:
+  workflow_dispatch:
 
 jobs:
   build:
