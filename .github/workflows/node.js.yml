@@ -9,10 +9,6 @@ on:
   push:
     branches: [ main ]
     
-  # habilitar quando a equipe utiliza pull request  
-  #pull_request:
-    #branches: [ main ]
-    
   #cron schedule - definir horários, dia e hora para executar
   
   workflow_dispatch:
