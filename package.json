@@ -11,13 +11,15 @@
   },
   "keywords": [],
   "author": "",
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
-    "cypress": "^7.3.0",
     "cypress-multi-reporters": "^1.5.0",
     "mochawesome": "^6.2.2",
     "mochawesome-merge": "^4.2.0",
     "mochawesome-report-generator": "^5.2.0",
     "rimraf": "^3.0.2"
+  },
+  "dependencies": {
+    "yargs-unparser": "^2.0.0"
   }
 }
